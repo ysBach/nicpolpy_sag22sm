@@ -1,6 +1,13 @@
 # nicpolpy_sag_2022
 The supporting information of NICPolpy paper by BachYP+22 (SAG).
 
+For any other details, see [NICpolpy](https://github.com/ysBach/NICpolpy).
+
+# Important Notes
+* You may have to download ``cal-flat_xxxxxxxx-lv1`` contents before using ``NICpolpy``.
+* See ``example/`` for an example usage of ``NICpolpy``.
+
+
 ## Contents
 1. ``cal-flat_20180507-lv1/``: The level 1 flats taken on 2018-05-07 are combined to generate these master flat.
 1. ``cal-flat_20200603-lv1/``: The level 1 flats taken on 2020-06-03 are combined to generate these master flat.
