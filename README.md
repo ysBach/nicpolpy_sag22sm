@@ -1,10 +1,10 @@
 # nicpolpy_sag_2022
-The supporting information of NICPolpy paper by BachYP+22 (SAG).
+The supporting information of NICPolpy paper: [Bach et al. 2022 SAG, 5, 4](http://www.nhao.jp/research/starsandgalaxies/05.html#2022J-4).
 
 For any other details, see [NICpolpy](https://github.com/ysBach/NICpolpy).
 
 # Important Notes
-* You may have to download ``cal-flat_xxxxxxxx-lv1`` contents before using ``NICpolpy``.
+* You may have to download ``cal-flat_xxxxxxxx-lv1/`` AND ``masks/`` contents before using ``NICpolpy``.
 * See ``example/`` for an example usage of ``NICpolpy``.
 
 
