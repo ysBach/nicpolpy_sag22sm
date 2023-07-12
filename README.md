@@ -3,6 +3,42 @@ The supporting information of NICPolpy paper: [Bach et al. 2022 SAG, 5, 4](http:
 
 For any other details, see [NICpolpy](https://github.com/ysBach/NICpolpy).
 
+## Citation ✅
+Please consider one or both of the following citation(s) depending on what you used (BibTeX):
+
+1. ``NICpolpy`` Zenodo (when you just want to mention which package was used).
+```
+@software{nicpolpy_v013,
+  author       = {Yoonsoo P. Bach},
+  title        = {ysBach/NICpolpy: NICpolpy v0.1.3},
+  month        = dec,
+  year         = 2022,
+  publisher    = {Zenodo},
+  version      = {publish},
+  doi          = {10.5281/zenodo.7391454},
+  url          = {https://doi.org/10.5281/zenodo.7391454}
+}
+```
+2. The implementation details document ([SAG official website](http://www.nhao.jp/research/starsandgalaxies/05.html#2022J-4), peer-reviewed, non-SCI)
+```
+@ARTICLE{2022_SAG_NICpolpy,
+       author = {{Bach}, Yoonsoo P. and {Ishiguro}, Masateru and {Takahashi}, Jun and {Geem}, Jooyeon},
+        title = "{Data Reduction Process and Pipeline for the NIC Polarimetry Mode in Python, NICpolpy}",
+      journal = {Stars and Galaxies (arXiv:2212.14167)},
+     keywords = {methods: data analysis, methods: observational, techniques: image processing, techniques: polarimetric},
+         year = 2022,
+        month = dec,
+       volume = {5},
+          eid = {4},
+        pages = {4},
+archivePrefix = {arXiv},
+       eprint = {2212.14167},
+ primaryClass = {astro-ph.IM},
+       adsurl = {https://ui.adsabs.harvard.edu/abs/2022arXiv221214167B},
+}
+```
+
+
 # Important Notes
 * You may have to download ``cal-flat_xxxxxxxx-lv1/`` AND ``masks/`` contents before using ``NICpolpy``.
 * See ``example/`` for an example usage of ``NICpolpy``.
